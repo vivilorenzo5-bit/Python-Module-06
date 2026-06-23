@@ -1,4 +1,5 @@
 from alchemy.elements import create_air
 from alchemy.potions import healing_potion as heal
+from alchemy.transmutation.recipes import lead_to_gold
 
-__all__ = ["create_air", "heal"]
+__all__ = ["create_air", "heal", "lead_to_gold"]
